@@ -23,10 +23,10 @@ public class DisplayTest {
 	 */
 
 	
-	@Test
-	public void test1Display() {
-		List<String> typesOfLoans = DisplayLoans.getLoanTypes();
-		assertEquals(5,typesOfLoans.size());
-	}
+	//@Test
+	//public void test1Display() {
+	//	List<String> typesOfLoans = DisplayLoans.getLoanTypes();
+	//	assertEquals(5,typesOfLoans.size());
+	//}
 
 }
