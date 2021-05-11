@@ -4,7 +4,7 @@
 <%@page import = "in.jeya.service.Loans" %>
 <%@page import = "java.util.List" %>
 <%@page import = "in.jeya.service.DisplayLoans" %>
-<html>
+<html lang = "en">
 <head>
 <meta charset="ISO-8859-1">
 <title>Types of Loans</title>
@@ -19,6 +19,7 @@
 
 <table class = "table table-bordered">
 
+
 <thead>
 <tr><th id = "SNo">S.No </th><th id = "loans">Available Loans</th></tr>
 </thead>
@@ -31,7 +32,7 @@ for(Loans loans : typesOfLoans){
 	i++;
 %>
 <tr><td><%= i %></td>
-<td><%= loans.loans %></td></tr>
+<td><%= loans.getLoans() %></td></tr>
 <% } %>
 
 </tbody>

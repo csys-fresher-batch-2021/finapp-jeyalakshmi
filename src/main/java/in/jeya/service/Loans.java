@@ -3,7 +3,7 @@ package in.jeya.service;
 
 public class Loans {
 
-	public String loans; 
+	private String loans; 
 	
 	public Loans(String type) {
 		this.loans = type;
@@ -12,5 +12,13 @@ public class Loans {
 	@Override
 	public String toString() {
 		return "Loans [type = " + loans + "]";
+	}
+
+	public String getLoans() {
+		return loans;
+	}
+
+	public void setLoans(String loans) {
+		this.loans = loans;
 	}
 }
