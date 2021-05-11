@@ -2,7 +2,7 @@ package in.jeya.service;
 
 public class Loans {
 
-	public String loans;
+	public String loans; 
 	
 	public Loans(String type) {
 		this.loans = type;

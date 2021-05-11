@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DisplayLoans {
 
-	private static List<Loans> listOfLoans = new ArrayList<Loans>();
+	private static List<Loans> listOfLoans = new ArrayList<>();
 	static {
 		
 		Loans loan1 = new Loans("House Loan");
@@ -27,15 +27,7 @@ public class DisplayLoans {
 	 * Displaying Available Loans
 	 */
 	
-	/*public static void display() {
-		for (String displayloans : listOfLoans) {
-			System.out.println("-----------------" + displayloans + "----------------");
-		}
-	}
-
-	public static List<String> getLoanTypes(){
-		return listOfLoans;
-	}*/
+	
 	
 	public static List <Loans> getLoanType(){
 		return listOfLoans;

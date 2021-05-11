@@ -13,7 +13,7 @@
 
 <jsp:include page = "header.jsp"></jsp:include>
 <main class = "container-fluid">
-
+<h3><center>...Types of Loans Available...</center></h3>
 <table class = "table table-bordered">
 
 <thead>
@@ -28,7 +28,7 @@ for(Loans loans : typesOfLoans){
 	i++;
 %>
 <tr><td><%= i %></td>
-<td><%=loans.loans %></td></tr>
+<td><%= loans.loans %></td></tr>
 <% } %>
 
 </tbody>
