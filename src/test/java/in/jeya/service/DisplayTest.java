@@ -14,7 +14,7 @@ public class DisplayTest {
 
 	@Test
 	public void testDisplay() {
-		List<String> typesOfLoans = DisplayLoans.getLoanTypes();
+		List<Loans> typesOfLoans = DisplayLoans.getLoanType();
 		assertEquals(6,typesOfLoans.size());
 	}
 	
