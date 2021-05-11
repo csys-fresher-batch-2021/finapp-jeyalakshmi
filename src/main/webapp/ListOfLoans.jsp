@@ -13,11 +13,14 @@
 
 <jsp:include page = "header.jsp"></jsp:include>
 <main class = "container-fluid">
-<h3><center>...Types of Loans Available...</center></h3>
+<h3>...Types of Loans Available...</h3>
+
+<!-- types of available loans  -->
+
 <table class = "table table-bordered">
 
 <thead>
-<tr><th>S.No </th><th>Available Loans</th></tr>
+<tr><th id = "SNo">S.No </th><th id = "loans">Available Loans</th></tr>
 </thead>
 <tbody>
 
