@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
 	<div align = "center">
-	<b><h1>!...Welcome...! </h1></b>
-    <h2><b><i>!!!.....ABC Financial Consultant.....!!!</i></b></h2>
-    <h4><b>No.17, 1st Street, Main Road, Madurai - 600004</b></h4>
-    <h4><b>Contact No. : 9876543210</b></h4>
-    <h4><b>E-mail Id : abcfinancialconsultant@gmail.com</b></h4>
+	<strong><h2>!...Welcome...! </h2></strong>
+    <h2><strong><em>!!!.....ABC Financial Consultant.....!!!</em></strong></h2>
+    <h4><strong>No.17, 1st Street, Main Road, Madurai - 600004</strong></h4>
+    <h4><strong>Contact No. : 9876543210</strong></h4>
+    <h4><strong>E-mail Id : abcfinancialconsultant@gmail.com</strong></h4>
     </div>
    
 </body>
