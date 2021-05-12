@@ -3,22 +3,22 @@ package in.jeya.service;
 
 public class Loan {
 
-	private String loans; 
+	private String loan; 
 	
 	public Loan(String type) {
-		this.loans = type;
+		this.loan = type;
 	}
 	
 	@Override
 	public String toString() {
-		return "Loans [type = " + loans + "]";
+		return "Loans [type = " + loan + "]";
 	}
 
 	public String getLoans() {
-		return loans;
+		return loan;
 	}
 
 	public void setLoans(String loans) {
-		this.loans = loans;
+		this.loan = loans;
 	}
 }
