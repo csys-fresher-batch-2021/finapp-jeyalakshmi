@@ -4,16 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DisplayLoans {
+	
+	private DisplayLoans() {
+		//default constructor
+	}
 
-	private static List<Loans> listOfLoans = new ArrayList<>();
+	private static final List<Loan> listOfLoans = new ArrayList<>();
 	static {
 		
-		Loans loan1 = new Loans("House Loan");
-		Loans loan2 = new Loans("Personal Loan");
-		Loans loan3 = new Loans("Gold Loan");
-		Loans loan4 = new Loans("Vehicle Loan");
-		Loans loan5 = new Loans("Agri Loan");
-		Loans loan6 = new Loans("Education Loan");
+		Loan loan1 = new Loan("House Loan");
+		Loan loan2 = new Loan("Personal Loan");
+		Loan loan3 = new Loan("Gold Loan");
+		Loan loan4 = new Loan("Vehicle Loan");
+		Loan loan5 = new Loan("Agri Loan");
+		Loan loan6 = new Loan("Education Loan");
 		
 		listOfLoans.add(loan1);
 		listOfLoans.add(loan2);
@@ -29,7 +33,7 @@ public class DisplayLoans {
 	
 	
 	
-	public static List <Loans> getLoanType(){
+	public static List <Loan> getLoanType(){
 		return listOfLoans;
 	}
 	

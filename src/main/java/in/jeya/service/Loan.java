@@ -1,11 +1,11 @@
 package in.jeya.service;
 
 
-public class Loans {
+public class Loan {
 
 	private String loans; 
 	
-	public Loans(String type) {
+	public Loan(String type) {
 		this.loans = type;
 	}
 	

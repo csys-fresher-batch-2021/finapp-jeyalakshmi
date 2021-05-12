@@ -14,19 +14,8 @@ public class DisplayTest {
 
 	@Test
 	public void testDisplay() {
-		List<Loans> typesOfLoans = DisplayLoans.getLoanType();
+		List<Loan> typesOfLoans = DisplayLoans.getLoanType();
 		assertEquals(6,typesOfLoans.size());
 	}
-	
-	/*
-	 * For InValid Loan Types Display(using size)
-	 */
-
-	
-	//@Test
-	//public void test1Display() {
-	//	List<String> typesOfLoans = DisplayLoans.getLoanTypes();
-	//	assertEquals(5,typesOfLoans.size());
-	//}
 
 }

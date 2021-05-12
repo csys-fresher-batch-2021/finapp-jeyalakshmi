@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<%@page import = "in.jeya.service.Loans" %>
+<%@page import = "in.jeya.service.Loan" %>
 <%@page import = "java.util.List" %>
 <%@page import = "in.jeya.service.DisplayLoans" %>
 <html lang = "en">
@@ -26,9 +26,9 @@
 <tbody>
 
 <%
-List<Loans> typesOfLoans = DisplayLoans.getLoanType();
+List<Loan> typesOfLoans = DisplayLoans.getLoanType();
 int i = 0;
-for(Loans loans : typesOfLoans){
+for(Loan loans : typesOfLoans){
 	i++;
 %>
 <tr><td><%= i %></td>
