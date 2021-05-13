@@ -10,14 +10,14 @@ public class UsernameValid {
 	}
 
 	public static boolean isValidUsername(String username) {
-		boolean Valid = false;
+		boolean isValid = false;
 		String regex = "^[A-Za-z]{6,25}$";
 		if (StringValidator.isValidString(username)) {
 			Pattern pattern = Pattern.compile(regex);
 			Matcher match = pattern.matcher(username);
-			Valid = match.matches();
+			isValid = match.matches();
 		}
-		return Valid;
+		return isValid;
 	}
 
 }

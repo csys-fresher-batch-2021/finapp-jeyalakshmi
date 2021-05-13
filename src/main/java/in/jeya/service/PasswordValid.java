@@ -10,14 +10,14 @@ public class PasswordValid {
 	}
 
 	public static boolean isValidPassword(String password) {
-		boolean Valid = false;
-		String regex = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[8@#$%^&-+=()]).{8,15}$";
+		boolean isValid = false;
+		String regex = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[8@#$%^&-+=]).{8,15}$";
 		if (StringValidator.isValidString(password)) {
 			Pattern pattern = Pattern.compile(regex);
 			Matcher match = pattern.matcher(password);
-			Valid = match.matches();
+			isValid = match.matches();
 		}
-		return Valid;
+		return isValid;
 	}
 
 }

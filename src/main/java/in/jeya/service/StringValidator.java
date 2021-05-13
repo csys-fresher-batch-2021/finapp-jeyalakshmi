@@ -7,11 +7,11 @@ public class StringValidator {
 	}
 
 	public static boolean isValidString(String string) {
-		boolean Valid = true;
+		boolean isValid = true;
 		if (string == null || string.trim().isEmpty()) {
-			Valid = false;
+			isValid = false;
 		}
-		return Valid;
+		return isValid;
 	}
 
 }

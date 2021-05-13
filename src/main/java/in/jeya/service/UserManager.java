@@ -1,6 +1,7 @@
 package in.jeya.service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class UserManager {
 
@@ -29,7 +30,7 @@ public class UserManager {
 	 * @return
 	 */
 
-	public static ArrayList<User> getUserInfo() {
+	public static List<User> getUserInfo() {
 		return userList;
 	}
 
