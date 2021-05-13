@@ -14,7 +14,13 @@ public class LoginTest {
 
 	@Test
 	public void testCase2() {
-		boolean login = LoginValid.login("jeya", "jeya@123");
+		boolean login = LoginValid.login("Nandhini", "Nandhini@1234");
+		assertTrue(login);
+	}
+
+	@Test
+	public void testCase3() {
+		boolean login = LoginValid.login("jeyalakshmi", "12345678");
 		assertFalse(login);
 	}
 
