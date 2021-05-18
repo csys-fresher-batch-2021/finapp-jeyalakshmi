@@ -8,19 +8,19 @@ public class LoginTest {
 
 	@Test
 	public void testCase1() {
-		boolean login = LoginValid.login("Jeyalakshmi", "Jeya@1234");
+		boolean login = CustomerLoginValid.login("Jeyalakshmi", "Jeya@1234");
 		assertTrue(login);
 	}
 
 	@Test
 	public void testCase2() {
-		boolean login = LoginValid.login("Nandhini", "Nandhini@1234");
+		boolean login = CustomerLoginValid.login("Nandhini", "Nandhini@1234");
 		assertTrue(login);
 	}
 
 	@Test
 	public void testCase3() {
-		boolean login = LoginValid.login("jeyalakshmi", "12345678");
+		boolean login = CustomerLoginValid.login("jeyalakshmi", "12345678");
 		assertFalse(login);
 	}
 

@@ -2,9 +2,9 @@ package in.jeya.service;
 
 import java.util.List;
 
-public class LoginValid {
+public class CustomerLoginValid {
 
-	private LoginValid() {
+	private CustomerLoginValid() {
 
 	}
 
@@ -19,7 +19,7 @@ public class LoginValid {
 	public static boolean login(String userName, String password) {
 		boolean isValid = false;
 		if (UsernameValid.isValidUsername(userName) && PasswordValid.isValidPassword(password)) {
-			List<User> userList = UserManager.getUserInfo();
+			List<User> userList = UserManager.getCustomerUserInfo();
 			for (User user : userList) {
 				if (userName.equals(user.getUsername()) && password.equals(user.getPassword())) {
 					isValid = true;

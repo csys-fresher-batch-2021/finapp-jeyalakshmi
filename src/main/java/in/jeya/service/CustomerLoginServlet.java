@@ -10,14 +10,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet("/LoginServlet")
-public class LoginServlet extends HttpServlet {
+@WebServlet("/CustomerLoginServlet")
+public class CustomerLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public LoginServlet() {
+	public CustomerLoginServlet() {
 		super();
 		
 	}
@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 
-		boolean valid = LoginValid.login(username, password);
+		boolean valid = CustomerLoginValid.login(username, password);
 		if (valid) {
 			System.out.println("Successfully Logged In");
 			response.sendRedirect("ListOfLoans.jsp");

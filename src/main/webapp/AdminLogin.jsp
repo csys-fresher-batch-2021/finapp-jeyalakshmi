@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Admin Login Page</title>
 </head>
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="header.jsp"></jsp:include>
 	<main class="container-fluid">
-		<h1>.....Customer Login Page.....</h1>
+		<h1>.....Admin Login Page.....</h1>
 		<%
 		String errorMessage = request.getParameter("errorMessage");
 		if (errorMessage != null) {
@@ -17,7 +17,7 @@
 		}
 		%>
 
-		<form action="CustomerLoginServlet" method="get">
+		<form action="AdminLoginServlet" method="get">
 
 			<br> <br> <label for="username">User Name</label> <input
 				type="text" name="username" id="username"
