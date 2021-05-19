@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import in.jeya.service.Validation.AdminLoginValid;
-import in.jeya.service.Validation.CustomerLoginValid;
+import in.jeya.service.validation.AdminLoginValid;
+import in.jeya.service.validation.CustomerLoginValid;
 
 public class LoginTest {
 

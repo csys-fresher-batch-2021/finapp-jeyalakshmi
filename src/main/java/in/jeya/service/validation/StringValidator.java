@@ -1,4 +1,4 @@
-package in.jeya.service.Validation;
+package in.jeya.service.validation;
 
 public class StringValidator {
 

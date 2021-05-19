@@ -1,4 +1,4 @@
-package in.jeya.service.Servlet;
+package in.jeya.service.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import in.jeya.service.Validation.CustomerLoginValid;
+import in.jeya.service.validation.CustomerLoginValid;
 
 /**
  * Servlet implementation class LoginServlet

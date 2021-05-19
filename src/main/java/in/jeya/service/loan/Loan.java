@@ -1,14 +1,13 @@
-package in.jeya.service.Loan;
-
+package in.jeya.service.loan;
 
 public class Loan {
 
-	private String getLoan; 
-	
+	private String getLoan;
+
 	public Loan(String type) {
 		this.getLoan = type;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Loans [type = " + getLoan + "]";

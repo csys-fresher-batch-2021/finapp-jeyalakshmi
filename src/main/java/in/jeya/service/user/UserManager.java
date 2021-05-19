@@ -1,4 +1,4 @@
-package in.jeya.service.User;
+package in.jeya.service.user;
 
 import java.util.ArrayList;
 import java.util.List;
