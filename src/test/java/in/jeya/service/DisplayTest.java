@@ -6,6 +6,9 @@ import java.util.List;
 
 import org.junit.Test;
 
+import in.jeya.service.Loan.DisplayLoans;
+import in.jeya.service.Loan.Loan;
+
 public class DisplayTest {
 	
 	/*

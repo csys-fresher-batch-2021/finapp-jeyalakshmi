@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<%@page import = "in.jeya.service.Loan" %>
+<%@page import = "in.jeya.service.Loan.Loan" %>
 <%@page import = "java.util.List" %>
-<%@page import = "in.jeya.service.DisplayLoans" %>
+<%@page import = "in.jeya.service.Loan.DisplayLoans" %>
 <html lang = "en">
 <head>
 <meta charset="ISO-8859-1">

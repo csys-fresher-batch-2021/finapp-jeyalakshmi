@@ -1,4 +1,4 @@
-package in.jeya.service;
+package in.jeya.service.Loan;
 
 import java.util.ArrayList;
 import java.util.List;

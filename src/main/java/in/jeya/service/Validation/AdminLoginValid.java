@@ -1,14 +1,16 @@
-package in.jeya.service;
+package in.jeya.service.Validation;
 
 import java.util.List;
 
+import in.jeya.service.User.UserManager;
+import in.jeya.service.User.User;
+
 public class AdminLoginValid {
 
-	
 	private AdminLoginValid() {
-		
+
 	}
-	
+
 	public static boolean login(String userName, String password) {
 		boolean isValid = false;
 		if (UsernameValid.isValidUsername(userName) && PasswordValid.isValidPassword(password)) {
@@ -24,5 +26,4 @@ public class AdminLoginValid {
 		return isValid;
 	}
 
-	
 }

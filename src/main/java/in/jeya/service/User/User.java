@@ -1,4 +1,7 @@
-package in.jeya.service;
+package in.jeya.service.User;
+
+import in.jeya.service.Validation.PasswordValid;
+import in.jeya.service.Validation.UsernameValid;
 
 public class User {
 

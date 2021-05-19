@@ -1,6 +1,9 @@
-package in.jeya.service;
+package in.jeya.service.Validation;
 
 import java.util.List;
+
+import in.jeya.service.User.User;
+import in.jeya.service.User.UserManager;
 
 public class CustomerLoginValid {
 

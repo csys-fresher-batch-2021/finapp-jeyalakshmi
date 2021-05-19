@@ -17,17 +17,17 @@
       <li class="nav-item active">
         <a class="nav-link" href="ListOfLoans.jsp">Loans Available<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
         <div class="dropdown-menu" aria-labelledby="dropdownId">
           <a class="dropdown-item" href="#">Action 1</a>
           <a class="dropdown-item" href="#">Action 2</a>
         </div>
-      </li>
+      </li> -->
     </ul>
      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="Login.jsp">Customer Login</a>
+        <a class="nav-link" href="CustomerLogin.jsp">Customer Login</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="AdminLogin.jsp">Admin Login</a>

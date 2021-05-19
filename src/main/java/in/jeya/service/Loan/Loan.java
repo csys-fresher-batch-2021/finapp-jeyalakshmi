@@ -1,4 +1,4 @@
-package in.jeya.service;
+package in.jeya.service.Loan;
 
 
 public class Loan {

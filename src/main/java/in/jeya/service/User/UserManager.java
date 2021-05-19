@@ -1,4 +1,4 @@
-package in.jeya.service;
+package in.jeya.service.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +40,7 @@ public class UserManager {
 
 		User user1 = new User();
 		user1.setUsername("Jeyalakshmi");
-		user1.setPassword("Jeya1234");
+		user1.setPassword("Jeya@1234");
 		customerUserList.add(user1);
 
 		User user2 = new User();
