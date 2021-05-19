@@ -6,8 +6,11 @@ import java.util.List;
 
 import org.junit.Test;
 
+import in.jeya.service.loan.DisplayLoans;
+import in.jeya.service.loan.Loan;
+
 public class DisplayTest {
-	
+
 	/*
 	 * For Valid Loan Types Display(using size)
 	 */
@@ -15,7 +18,7 @@ public class DisplayTest {
 	@Test
 	public void testDisplay() {
 		List<Loan> typesOfLoans = DisplayLoans.getLoanType();
-		assertEquals(6,typesOfLoans.size());
+		assertEquals(6, typesOfLoans.size());
 	}
 
 }
